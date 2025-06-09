@@ -1,5 +1,7 @@
 # Instruções
-Caso tenha a ferramenta `Make` em seu sistema, para poder rodar as aplicações basta entrar no diretório do projeto e executar o seguinte comando
+As instruções a seguir irão partir do pressuposto que tem a ferramenta `Make` instalada em seu sistema.
+
+Para poder rodar as aplicações basta entrar no diretório do projeto e executar o seguinte comando:
 
 ```bash
 make
@@ -10,7 +12,10 @@ ou
 ```bash
 make all
 ```
-
+---
+> [!IMPORTANT]
+> Ainda é possível executar as aplicações sem a ferramenta previamente citada, basta compilar manualmente cada uma delas usando do compilador de sua preferência.
+---
 Após isso ele vai rodar as duas aplicações `main` que se econram nos diretórios `projeto1` e `projeto2`, respectivamente.
 
 ## Extra
